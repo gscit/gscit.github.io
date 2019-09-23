@@ -22,9 +22,9 @@ linux머신에서 직접 받으시든... 윈도우즈에서 옮기시든...  옮
 하면 jdk13폴더가 생깁니다. 
 
 그럼 ~/.bashrc 밑에
-export JAVA_HOME=/home/ubuntu/jdk-13
-export PATH=${JAVA_HOME}/bin:${PATH}
-export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+export JAVA_HOME=/home/ubuntu/jdk-13\
+export PATH=${JAVA_HOME}/bin:${PATH}\
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar\
 이런식으로 jdk-13 폴더에 맞춰서 JAVA_HOME을 설정해주면 됩니다.
 
 그다음엔 임의의 input 폴더를 만듭니다.
