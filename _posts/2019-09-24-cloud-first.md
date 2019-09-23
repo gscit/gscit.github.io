@@ -16,10 +16,12 @@ https://jdk.java.net/13/ 에서 linux용 tar.gz를 받습니다.
 https://download.java.net/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/openjdk-13_linux-x64_bin.tar.gz
 
 linux머신에서 직접 받으시든... 윈도우즈에서 옮기시든...  옮긴다음에
+옮긴 폴더(디렉토리)내에서 
 
 > tar -xzvf ./openjdk-13_linux-x64_bin.tar.gz 
 
-하면 jdk13폴더가 생깁니다.   
+하면 jdk13폴더가 생깁니다. 리눅스에서는 ls라는 명령어로 디렉토리내 파일 조회가 가능합니다.  
+> ls 
 
 그럼 ~/.bashrc 을 여시고  
 > nano ~/.bashrc 
