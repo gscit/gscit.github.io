@@ -18,6 +18,7 @@ https://download.java.net/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/
 linux머신에서 직접 받으시든... 윈도우즈에서 옮기시든...  옮긴다음에
 
 > tar -xzvf ./openjdk-13_linux-x64_bin.tar.gz 
+
 하면 jdk13폴더가 생깁니다. 
 
 그럼 ~/.bashrc 밑에
