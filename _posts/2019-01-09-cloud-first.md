@@ -28,11 +28,14 @@ export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 
 그다음엔 임의의 input 폴더를 만듭니다.
 > mkdir input && cd input 
+
 다음 가상의 input파일을 만듭니다.
 > nano file01
+
 하면 편집기가 나올텐데 거기서 웹사이트에 있는것 처럼 Hello World Bye World 라고 입력하고 Ctrl+x 를 누릅니다. Y를 눌러야 저장이 됩니다.
-마찬가지고
+마찬가지로
 > nano file02 
+
 Hello Hadoop Goodbye Hadoop
 라고 입력해줍니다. 
 
